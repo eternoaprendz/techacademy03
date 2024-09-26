@@ -11,7 +11,7 @@ public class Mysql {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/aula-5",
+                    "jdbc:mysql://localhost:3306/aventuras",
                     "root",
                     ""
             );
